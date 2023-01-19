@@ -1,0 +1,49 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+.clearfix{*z-index: 1;}
+/* 兼容IE6 清除浮动的写法 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

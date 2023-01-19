@@ -1,0 +1,266 @@
+.box{
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    position: relative;
+    z-index: 1;
+}
+.top-bg-box{
+    width: 100%;
+    height: 45vh;
+    position: absolute;
+    background: url(../universe-star-img/text-top.png) no-repeat;
+    background-size: cover;
+}
+
+
+.contents{
+    position: relative;
+    z-index: 3;
+    height: auto;
+    padding-bottom: 1175px;
+}
+
+.contents-1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 60px;
+    
+}
+.contents-1 h1{
+    font-size: 60px;
+    letter-spacing: 22px;
+    margin-left: 18px;
+    color: #fff;
+}
+.contents-1 p{
+    color: rgba(233,233,255,.549);
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.contents-2{
+    background-color: #050d2e;
+    width: 100%;
+    margin: 0 auto 80px;
+}
+.contents-2-img{
+    position: relative;
+    width: 100%;
+}
+.contents-2-img img{
+    display: block;
+    width: 100%;
+}
+
+
+.contents-text-box{
+    position: relative;
+    width: 100%;
+    background: url(../universe-star-img/text-mid.png);
+    background-size: cover;
+    background-position: 50%;
+    
+}
+.contents-text{
+    width: 100%;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+}
+
+.contents-text-1{
+    position: relative;
+    text-align: left;
+    max-width: 600px;
+}
+
+.contents-text-1 h1{
+    color: #fff;
+}
+.contents-text-1 p{
+    color: #e9e9ff;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contents-text-2{
+    width: 150px;
+    height: 100%;
+    position: relative;
+    font-size: 18px;
+    line-height: 50px;
+    background-color: #0a1231;
+    border: 1px solid #494f66;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+}
+.contents-text-2:hover{
+    filter: brightness(1.5);
+}
+.contents-text-2 a{
+    color: #e9e9ff;
+}
+
+.left-top,.left-button,.right-top,.right-button{
+    display: block;
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    background: white;
+}
+.left-top{
+    left: -2px;
+    top: -2px;
+}
+.left-button{
+    left: -2px;
+    bottom: -2px;
+}
+.right-top{
+    top: -2px;
+    right: -2px;
+}
+.right-button{
+    bottom: -2px;
+    right: -2px;
+}
+
+
+.contents-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.contents-left,.contents-right{
+    height: 1px;
+    max-width: 400px;
+    width: 30%;
+}
+.contents-left{
+    background-image: linear-gradient(90deg,rgba(0,0,0,0),hsla(0,0%,100%,.41));
+    margin-right: -16px;
+}
+.contents-right{
+    background-image: linear-gradient(90deg,hsla(0,0%,100%,.41),rgba(0,0,0,0));
+    margin-left: -16px;
+}
+
+
+.contents-4{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.main{
+    position: relative;
+    height: 100%;
+    width: 48%;
+    background-color: rgba(73,79,102,.05);
+    border: 1px solid #494f66;
+    padding: 22px;
+}
+.main-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 22px;
+    background-color: #050d2e;
+}
+.main-img{
+    width: 100%;
+    height: 400px;
+    max-height: 400px;
+    margin-bottom: 20px;
+}
+
+
+.main-img1{
+    background: url(../universe-star-img/main4.jpg);
+    background-size: cover;
+    background-position: 53% 46%;
+}
+.main-img2{
+    background: url(../universe-star-img/main3.jpg);
+    background-size: cover;
+    background-position: 53% 46%;
+}
+.main-img3{
+    background: url(../universe-star-img/main1.jpg);
+    background-size: cover;
+    background-position: 53% 46%;
+}
+.main-img4{
+    background: url(../universe-star-img/main2.jpg);
+    background-size: cover;
+    background-position: 53% 46%;
+}
+
+
+
+.main-text h1{
+    font-weight: 800;
+    font-size: 28px;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 1.2;
+}
+
+.main-text p:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+    color: #fc39af;
+    letter-spacing: 1px;
+    line-height: 1.5px;
+    padding: 10px 0 18px;
+    margin-top: 5px;
+}
+
+.main-text p:nth-child(3){
+    color: #e9e9ff;
+    font-size: 16px;
+    line-height: 25px;
+    min-height: 80px;
+}
+
+.more{
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #0a1231;
+    border: 1px solid #494f66;
+    color: #e9e9ff;
+    cursor: pointer;
+    text-align:center;
+    line-height: 60px;
+    margin-top: 30px;
+    transition: all 0.2s ease;
+}
+.more:hover{
+    filter: brightness(1.2);
+}
+
+.button-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../universe-star-img/big-img.jpg) no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    bottom: 0;
+    z-index: -1;
+    
+}
+
+
+
